@@ -9,7 +9,7 @@ import plotly.express as px
 from zipfile import ZipFile
 from sklearn.cluster import KMeans
 plt.style.use('fivethirtyeight')
-#sns.set_style('darkgrid')
+sns.set_style('darkgrid')
 
 
 def main() :
@@ -215,12 +215,12 @@ def main() :
     st.write("**Default probability : **{:.0f} %".format(round(float(prediction)*100, 2)))
 
     #Compute decision according to the best threshold
-    #if prediction <= xx :
-    #    decision = "<font color='green'>**LOAN GRANTED**</font>" 
-    #else:
-    #    decision = "<font color='red'>**LOAN REJECTED**</font>"
+    if prediction <= 0,10 :
+        decision = "<font color='green'>**LOAN GRANTED**</font>" 
+    else:
+        decision = "<font color='red'>**LOAN REJECTED**</font>"
 
-    #st.write("**Decision** *(with threshold xx%)* **: **", decision, unsafe_allow_html=True)
+    st.write("**Decision** *(with threshold 10%)* **: **", decision, unsafe_allow_html=True)
 
     st.markdown("<u>Customer Data :</u>", unsafe_allow_html=True)
     st.write(identite_client(data, chk_id))
@@ -262,7 +262,7 @@ def main() :
         
         
     st.markdown('***')
-    st.markdown("Thanks for going through this Web App with me! I'd love feedback on this, so if you want to reach out you can find me on [twitter] (https://twitter.com/nalron_) or my [website](https://nalron.com/). *Code from [Github](https://github.com/nalron/project_credit_scoring_model)* ❤️")
+    st.markdown("Merci de visionner cette application web. Pour les commentaires clicker sur le lien *Code from [Github](https://github.com/nalron/project_credit_scoring_model)* ❤️")
 
 
 if __name__ == '__main__':
