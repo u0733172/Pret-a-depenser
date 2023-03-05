@@ -215,7 +215,7 @@ def main() :
     st.write("**Default probability : **{:.0f} %".format(round(float(prediction)*100, 2)))
 
     #Compute decision according to the best threshold
-    if prediction <= 0,10 :
+    if prediction <= 0.10 :
         decision = "<font color='green'>**LOAN GRANTED**</font>" 
     else:
         decision = "<font color='red'>**LOAN REJECTED**</font>"
