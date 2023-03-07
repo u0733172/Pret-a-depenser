@@ -14,8 +14,11 @@ L'application répond au **cahier des charges** suivant :
  - Permettre de comparer les informations descriptives relatives à un client à l’ensemble des clients ou à un groupe de clients similaires.
 
 
-**PyCharm** a été utilisé pour le développement de l'application en local. Ngrok est un outil qui permet de rendre votre poste de développement web local accessible depuis l'extérieur, via un tunnel sécurisé, depuis une url du type https://azerty.ngrok.io.
+**streamlit** a été utilisé pour le développement de l'application en local. streamlit est un outil qui permet de rendre votre poste de développement web local accessible depuis l'extérieur, via un tunnel sécurisé, depuis une url du type https://streamlit.io.
 
+```
+pip install streamlit
+```
 
 ## Préambule
 Pour ce projet, les données ont été manipulées en Python sur support Jupyter Notebook avec développement de l'app Streamlit. Google Colab a été utilisé aussi pour l'entraînement du modèle en exécution GPU.
