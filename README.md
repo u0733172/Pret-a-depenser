@@ -64,10 +64,6 @@ pip install matplotlib
 pip install numpy
 pip install scipy
 ```
-
-### Heroku Git
-*Installation de Heroku Command Line Interface (CLI) [Heroku CLI](https://devcenter.heroku.com/articles/heroku-command-line)* 
-
 ```
 $ heroku login
 ```
