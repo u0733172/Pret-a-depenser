@@ -65,7 +65,7 @@ pip install numpy
 pip install scipy
 ```
 ```
-$ heroku login
+$ streamlit login
 ```
 Mise à jour des modifications
 ```
