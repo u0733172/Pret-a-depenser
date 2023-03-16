@@ -75,8 +75,8 @@ def main() :
         return df_income
 
     @st.cache_data
-    def load_prediction(sample, _id, _clf):
-        X=sample.iloc[:, :-1]
+    def load_prediction(_sample, _id, _clf):
+        X=_sample.iloc[:, :-1]
         score = _clf.predict_proba(X[X.index == int(_id)])[:,1]
         return score
 
