@@ -21,7 +21,7 @@ pip install streamlit
 ```
 
 ## Préambule
-Pour ce projet, les données ont été manipulées en Python sur support Jupyter Notebook avec développement de l'app Streamlit. Google Colab a été utilisé aussi pour l'entraînement du modèle en exécution GPU.
+Pour ce projet, les données ont été manipulées en Python sur support Jupyter Notebook avec développement de l'app Streamlit. 
 
 ### Les données
  - Données Kaggle : [Home Credit Default](https://www.kaggle.com/c/home-credit-default-risk/data)
@@ -71,7 +71,7 @@ Mise à jour des modifications
 ```
 $ git add .
 $ git commit -am "make it better"
-$ git push heroku master
+$ git push master
 ```
 
 ### Ressources Streamlit [Cheat Sheet…](https://share.streamlit.io/daniellewisdl/streamlit-cheat-sheet/app.py)
