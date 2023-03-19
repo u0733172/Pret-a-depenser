@@ -6,6 +6,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 import pickle
 import shap
+import ipython
 import plotly.express as px
 from zipfile import ZipFile
 from sklearn.cluster import KMeans
